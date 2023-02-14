@@ -1,0 +1,23 @@
+{
+  "name": "daas-hr-bi-mobile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://zhuoyilu@git.loongair.cn/scm/dshr/daas-hr-bi-mobile.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "vue-inset-loader": "^1.2.6"
+  },
+  "devDependencies": {
+   
+  }
+}

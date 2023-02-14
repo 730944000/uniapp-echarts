@@ -1,0 +1,78 @@
+@import '@/uni_modules/uni-scss/variables.scss';
+
+//#2EB0FC
+.bk-color-primary {
+	background-color: $uni-primary;
+}
+
+.text-color-primary {
+	color: $uni-primary;
+}
+
+
+.margin-left-15 {
+	margin-left: 15rpx;
+}
+
+.margin-right-15 {
+	margin-right: 15rpx;
+}
+
+.margin-bottom-15 {
+	margin-bottom: 15rpx;
+}
+
+.margin-bottom-25 {
+	margin-bottom: 25rpx;
+}
+
+.margin-top-25 {
+	margin-top: 25rpx;
+}
+
+//弹性布局
+.display-flex {
+	display: flex;
+	
+}
+
+//弹性布局前提下的垂直居中
+.align-items-center {
+	align-items: center;
+}
+
+//弹性布局前提下，垂直方向
+.flex-direction-column {
+	flex-direction: column;
+}
+
+
+//弹性布局左右排布
+.flex-space-between {
+	justify-content: space-between;
+}
+
+//弹性布局下，宽度自适应
+.flex-auto-width {
+	flex: 1;
+	width: 100%;
+	min-width: 0;
+}
+
+//弹性布局下，高度自适应
+.flex-auto-height {
+	flex: 1;
+	height: 100%;
+	min-height: 0;
+}
+
+//弹性布局内容会换行
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+
+//弹性布局下，，固定宽度的div不收缩
+.flex-no-shrink {
+	flex-shrink: 0;
+}

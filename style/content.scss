@@ -1,0 +1,111 @@
+.chart {
+		border: 1px solid #eaeaea;
+		border-top: none;
+		margin: 0 30rpx;
+		border-radius: 0 0 20rpx 20rpx;
+		
+	}
+
+
+.content{
+    height: 100%;
+    .content-list{
+	  width: 100%;
+      white-space: nowrap;
+      overflow-y: auto;
+      height: 120rpx;
+      view {
+        // width: 160rpx;
+        padding: 0 15rpx;
+        display: inline-block;
+        height: 100%;
+        box-sizing: border-box;
+        .center {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          image {
+            width: 80rpx;
+            height: 80rpx;
+          }
+        }
+      }
+    }
+    .content-bottom{
+        display: flex;
+        justify-content: center;
+
+        .box{
+            height: 100%;
+            width: 80%;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            .box-item {
+                margin: 0 15rpx;
+                width: 170rpx;
+                .box-img{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    image {
+                        width: 80rpx;
+                        height: 80rpx;
+                        border-radius: 50%;
+                      }
+                    text{
+                        margin-top: 10rpx;
+                    }  
+                }
+              }
+        }
+    }
+    text{
+        font-size: 22rpx;
+        color: black;
+    }
+}
+
+.table {
+		margin-top: 20rpx;
+		width: 100%;
+		min-height: 200rpx;
+	
+			.uni-table{
+				background-color: transparent !important;
+			}
+		
+		
+	.uni-table-tr {
+		.uni-table-td {
+			color: #fffc;
+			background-color: transparent;
+			line-height: 30rpx;
+		}
+	
+	}
+	
+	.tableTitle {
+		.uni-table-th {
+			color: #fffc;
+			background-color: transparent;
+			line-height: 20rpx;
+		}
+	}
+	}
+	// /deep/ .uni-table{
+	// 	background-color: transparent !important;
+	// }
+
+/deep/ .uni-table-tr:nth-child(2n + 3),
+	/deep/ .uni-table-tr:nth-child(2n) {
+		background-color: transparent !important;
+	}
+
+	a {
+		text-decoration: underline;
+	}
+    .components{
+        margin-top: -60rpx;
+    }
